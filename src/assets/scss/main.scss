@@ -1,0 +1,30 @@
+$main-bg: #353647;
+$section-bg: #414256;
+$header-bg: #525367;
+
+$message1-bg: #768aff;
+$message2-bg: #b5c0ff;
+
+$main-color: #fff;
+$first-color: #4a4a4a;
+$second-color: #b5b5b5;
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('@/assets/fonts/Roboto.ttf');
+}
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('@/assets/fonts/NotoColorEmoji-Regular.ttf');
+}
+
+
+* {
+    font-family: 'Roboto', 'Noto Color Emoji', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
