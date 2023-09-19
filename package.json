@@ -12,7 +12,6 @@
     "bootstrap": "^5.3.1",
     "sass": "^1.66.1",
     "sass-loader": "^13.3.2",
-    "vite-plugin-compression2": "^0.10.4",
     "vue": "^3.2.45",
     "vue3-emoji-picker": "^1.1.7"
   },

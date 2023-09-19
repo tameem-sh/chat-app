@@ -3,14 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 import { fileURLToPath, URL } from 'url';
 
-import { compression } from 'vite-plugin-compression2'
-
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    compression({ algorithm: 'brotliCompress', include: /\.(css|js|json|svg|png|ico)(\?.*)?$/i }),
-  ],
+  plugins: [vue()],
 
   resolve: {
     alias: {
